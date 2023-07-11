@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "This repo contains starter files and the finished project files for all the projects contained in the course (complete repo size is **288MB**).",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "node --watch server.js",
+    "start:prod": "NODE_ENV=production node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
